@@ -88,7 +88,7 @@ public class sqljava {
 			case 5:
 				//update record
 				stmt = conn.createStatement();
-			    sql[4] = "UPDATE books SET price = 450 WHERE ISBNno = 5248261297; ";
+			    sql[4] = "UPDATE books SET price = 400 WHERE ISBNno = 5248261297; ";
 			    stmt.executeUpdate(sql[4]);
 			    System.out.println("Records updated..");
 			 break;
